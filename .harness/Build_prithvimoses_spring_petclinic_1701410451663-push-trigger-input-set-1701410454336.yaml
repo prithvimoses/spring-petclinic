@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_prithvimoses_spring_petclinic_1701410451663-push-trigger-input-set
+  identifier: Build_prithvimoses_spring_petclinic_1701410451663pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_prithvimoses_spring_petclinic_1701410451663
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
